@@ -8,7 +8,7 @@ import {
   LayoutAnimation,
 } from "react-native";
 import { theme } from "../theme";
-import ShoppingListItem from "../components/ShoppingListItem";
+import ShoppingListItem from "../components/shopping-list-item";
 import { useEffect, useState } from "react";
 import { getFromStorage, saveToStorage } from "../utils/storage";
 import * as Haptics from "expo-haptics";
